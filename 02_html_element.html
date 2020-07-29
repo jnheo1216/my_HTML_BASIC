@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<!--element-->
+<!--태그는 중첩이 가능 - 부모자식 관계 성립-->
+<!--태그와 태그 안에 포함된 요소들을 포함해서 element라고 함-->
+<!--property, attribute : 태그 내에서 특정한 해주는 것-->
+<!--
+
+html은 크게 2부분
+   head : 설정
+   body : 웹브라우저에서 렌더링 할 데이터
+
+   태그는 크게 두가지 종류임
+   1. block level element
+   2. inline element
+
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>02_html_element</title>
+    <style>
+        h2 {
+            color: blue;
+            background-color: yellow;
+            font-size: 30pt;
+        }
+        .myclass {
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1 class = "myclass">하하하</h1>
+    <h2>하하하하하하하하하하</h2>
+    <img src="image/tea.jpg" data-author="허진녕">
+    <br><br><br><br><br><br><br><!--줄띄우기-->
+    <!--ul : 순서없는 목록들-->
+    <ul>
+        <li>서울</li>
+        <li>인천</li>
+    </ul>
+    <!--ol : 순서있는 목록들-->
+    <ol>
+        <li>서울</li>
+        <li>인천</li>
+    </ol>
+    <!--하이퍼텍스트 쓰는법-->
+    <a href="http://www.naver.com">네이버 클릭클릭</a>
+    <!--둘다 영역잡는 태그-->
+    <br>
+    <span>span!!!!!!!!!!!!!!!!</span><!--얘는 라인 안잡음-->
+    <div>div!!!!!!!!!!!!!!!!</div><!--얘는 라인을 잡음-->
+    <!--사용자 입력 양식-->
+    <input type="button" value="여기는 버튼">
+    <input type="text">
+    <input type="date">
+    <input type="color">
+
+</body>
+</html>
